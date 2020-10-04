@@ -28,9 +28,10 @@ class _SlideState extends State<Slide> {
     );
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Homepage',
-          textAlign: TextAlign.center,
+        title: Center(
+          child: Text(
+            'Homepage',
+          ),
         ),
         backgroundColor: Colors.tealAccent[400],
       ),
