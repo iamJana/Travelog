@@ -22,19 +22,20 @@ class _SlideState extends State<Slide> {
           AssetImage('images/slider/5.jpg')
         ],
         autoplay: true,
-        indicatorBgPadding: 1.0,
+        indicatorBgPadding: 0.5,
+        dotBgColor: Color(0x00000000),
         dotSize: 4.0,
       ),
     );
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-          child: Text(
-            'Homepage',
+          title: Center(
+            child: Text(
+              'Homepage',
+            ),
           ),
-        ),
-        backgroundColor: Colors.tealAccent[400],
-      ),
+          backgroundColor: Colors.tealAccent[700],
+          ),
       body: ListView(
         children: [image_slider_carousel],
       ),
