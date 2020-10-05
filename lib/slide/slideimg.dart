@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 //import 'package:url_launcher/url_launcher.dart';
@@ -38,14 +40,23 @@ class _SlideState extends State<Slide> {
         backgroundColor: Colors.tealAccent[700],
       ),
       body: ListView(
-        children: [image_slider_carousel, 
-        Container(
-        child:Center(
-          child: Text("Hello"),
-        ) ,
+        children: [image_slider_carousel,
+        Image(
+          image: AssetImage('images/himages/1.png'),   
+        ),
+        Image(
+          image: AssetImage('images/himages/2.png'),
+        ),
+        Image(
+          image: AssetImage('images/himages/3.png'),
+        ),
+        Image(
+          image: AssetImage('images/himages/4.png'),
         )
+
         ],
       ),
+      
     );
   }
 }
