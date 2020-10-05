@@ -35,19 +35,11 @@ class _SlideState extends State<Slide> {
             'Homepage',
           ),
         ),
-        backgroundColor: Colors.tealAccent[700],
+        backgroundColor: Colors.purple[900],
       ),
       body: ListView(
         children: [
           image_slider_carousel,
-          Container(
-            child: Center(
-              child: Text(
-                "Hello",
-                textAlign: TextAlign.center,
-              ),
-            ),
-          )
         ],
       ),
     );
