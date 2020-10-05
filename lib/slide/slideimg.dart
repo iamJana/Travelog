@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+//import 'package:url_launcher/url_launcher.dart';
 
 class Slide extends StatefulWidget {
   @override
@@ -29,15 +30,17 @@ class _SlideState extends State<Slide> {
     );
     return Scaffold(
       appBar: AppBar(
-          title: Center(
-            child: Text(
-              'Homepage',
-            ),
+        title: Center(
+          child: Text(
+            'Homepage',
           ),
-          backgroundColor: Colors.tealAccent[700],
-          ),
+        ),
+        backgroundColor: Colors.tealAccent[700],
+      ),
       body: ListView(
-        children: [image_slider_carousel],
+        children: [
+          image_slider_carousel,
+        ],
       ),
     );
   }
