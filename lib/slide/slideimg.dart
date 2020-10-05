@@ -38,7 +38,13 @@ class _SlideState extends State<Slide> {
         backgroundColor: Colors.tealAccent[700],
       ),
       body: ListView(
-        children: [image_slider_carousel],
+        children: [image_slider_carousel, 
+        Container(
+        child:Center(
+          child: Text("Hello"),
+        ) ,
+        )
+        ],
       ),
     );
   }
