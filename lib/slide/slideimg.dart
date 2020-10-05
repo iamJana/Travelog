@@ -29,15 +29,15 @@ class _SlideState extends State<Slide> {
     );
     return Scaffold(
       appBar: AppBar(
-          title: Center(
-            child: Text(
-              'Homepage',
-            ),
+        title: Center(
+          child: Text(
+            'Homepage',
           ),
-          backgroundColor: Colors.tealAccent[700],
-          ),
+        ),
+        backgroundColor: Colors.tealAccent[700],
+      ),
       body: ListView(
-        children: [image_slider_carousel],
+        children: [image_slider_carousel, Container()],
       ),
     );
   }
