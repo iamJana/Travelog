@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class Himage extends StatelessWidget {
   final String _path;
   Himage(this._path);
