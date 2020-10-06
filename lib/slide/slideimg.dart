@@ -13,9 +13,9 @@ class _SlideState extends State<Slide> {
   Widget build(BuildContext context) {
     // ignore: non_constant_identifier_names
     Widget image_slider_carousel = Container(
-      height: 250.0,
+      height: 220.0,
       child: Card(
-        color: Colors.black,
+        color: Colors.white,
         child: ClipRRect(
           borderRadius: BorderRadius.circular(25.0),
           child: Carousel(
@@ -36,7 +36,7 @@ class _SlideState extends State<Slide> {
       ),
     );
     return Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         appBar: AppBar(
           title: Center(
             child: Text(
@@ -49,10 +49,11 @@ class _SlideState extends State<Slide> {
           child: Column(
             children: [
               Card(
-                color: Colors.black,
+                color: Colors.white,
                 child: Column(
                   children: [
                     image_slider_carousel,
+                    
                     Padding(padding: EdgeInsets.only(bottom: 18.0)),
                     Himage('images/himages/1.png'),
                     Padding(padding: EdgeInsets.only(bottom: 18.0)),
