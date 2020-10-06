@@ -1,7 +1,6 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'himages.dart';
 //import 'package:url_launcher/url_launcher.dart';
 
 class Slide extends StatefulWidget {
@@ -14,49 +13,59 @@ class _SlideState extends State<Slide> {
   Widget build(BuildContext context) {
     // ignore: non_constant_identifier_names
     Widget image_slider_carousel = Container(
-      height: 200.0,
-      child: Carousel(
-        boxFit: BoxFit.cover,
-        images: [
-          AssetImage('images/slider/1.jpg'),
-          AssetImage('images/slider/2.jpg'),
-          AssetImage('images/slider/3.jpg'),
-          AssetImage('images/slider/4.jpg'),
-          AssetImage('images/slider/5.jpg')
-        ],
-        autoplay: true,
-        indicatorBgPadding: 0.5,
-        dotBgColor: Color(0x00000000),
-        dotSize: 4.0,
+      height: 250.0,
+      child: Card(
+        color: Colors.black,
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(25.0),
+          child: Carousel(
+            boxFit: BoxFit.cover,
+            images: [
+              AssetImage('images/slider/1.jpg'),
+              AssetImage('images/slider/2.jpg'),
+              AssetImage('images/slider/3.jpg'),
+              AssetImage('images/slider/4.jpg'),
+              AssetImage('images/slider/5.jpg')
+            ],
+            autoplay: true,
+            indicatorBgPadding: 0.5,
+            dotBgColor: Color(0x00000000),
+            dotSize: 4.0,
+          ),
+        ),
       ),
     );
     return Scaffold(
-      appBar: AppBar(
-        title: Center(
-          child: Text(
-            'Homepage',
+        backgroundColor: Colors.black,
+        appBar: AppBar(
+          title: Center(
+            child: Text(
+              'Homepage',
+            ),
           ),
+          backgroundColor: Colors.tealAccent[700],
         ),
-        backgroundColor: Colors.tealAccent[700],
-      ),
-      body: ListView(
-        children: [image_slider_carousel,
-        Image(
-          image: AssetImage('images/himages/1.png'),   
-        ),
-        Image(
-          image: AssetImage('images/himages/2.png'),
-        ),
-        Image(
-          image: AssetImage('images/himages/3.png'),
-        ),
-        Image(
-          image: AssetImage('images/himages/4.png'),
-        )
-
-        ],
-      ),
-      
-    );
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Card(
+                color: Colors.black,
+                child: Column(
+                  children: [
+                    image_slider_carousel,
+                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
+                    Himage('images/himages/1.png'),
+                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
+                    Himage('images/himages/2.png'),
+                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
+                    Himage('images/himages/3.png'),
+                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
+                    Himage('images/himages/4.png'),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ));
   }
 }
