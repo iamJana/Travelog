@@ -39,11 +39,23 @@ class _SlideState extends State<Slide> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Center(
+        title: Padding(
+          padding: const EdgeInsets.fromLTRB(130, 0, 0, 0),
           child: Text(
             'Homepage',
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.search,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              // do something
+            },
+          )
+        ],
         backgroundColor: Colors.tealAccent[700],
       ),
       body: SingleChildScrollView(
@@ -54,71 +66,19 @@ class _SlideState extends State<Slide> {
               image_slider_carousel,
               Padding(padding: EdgeInsets.only(bottom: 18.0)),
               Stack(children: <Widget>[
-                Himage('images/himages/one.png'),
-                Padding(
-                  padding: const EdgeInsets.all(85),
-                  child: Text(
-                    'HILLS STATION',
-                    style: TextStyle(
-                      fontSize: 25,
-                      color: tcolor,
-                      fontWeight: FontWeight.bold,
-                      backgroundColor: Color(0x00000000),
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
+                Himage('images/himages/oone.jpg', 1),
               ]),
               Padding(padding: EdgeInsets.only(bottom: 18.0)),
               Stack(children: <Widget>[
-                Himage('images/himages/2.png'),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(140, 95, 50, 10),
-                  child: Text(
-                    'FALLS',
-                    style: TextStyle(
-                      fontSize: 25,
-                      color: tcolor,
-                      fontWeight: FontWeight.bold,
-                      backgroundColor: Color(0x00000000),
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
+                Himage('images/himages/two.jpg', 2),
               ]),
               Padding(padding: EdgeInsets.only(bottom: 18.0)),
               Stack(children: <Widget>[
-                Himage('images/himages/3.jpg'),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(130, 95, 50, 10),
-                  child: Text(
-                    'TEMPLES',
-                    style: TextStyle(
-                      fontSize: 25,
-                      color: tcolor,
-                      fontWeight: FontWeight.bold,
-                      backgroundColor: Color(0x00000000),
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
+                Himage('images/himages/three.jpg', 3),
               ]),
               Padding(padding: EdgeInsets.only(bottom: 18.0)),
               Stack(children: <Widget>[
-                Himage('images/himages/4.webp'),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(130, 95, 50, 10),
-                  child: Text(
-                    'BEACHES',
-                    style: TextStyle(
-                      fontSize: 25,
-                      color: tcolor,
-                      fontWeight: FontWeight.bold,
-                      backgroundColor: Color(0x00000000),
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
+                Himage('images/himages/four.jpg', 4),
               ]),
               Padding(padding: EdgeInsets.only(top: 18.0)),
             ],
