@@ -45,31 +45,6 @@ class _SlideState extends State<Slide> {
           ),
           backgroundColor: Colors.tealAccent[700],
         ),
-<<<<<<< HEAD
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Card(
-                color: Colors.white,
-                child: Column(
-                  children: [
-                    image_slider_carousel,
-                    
-                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
-                    Himage('images/himages/1.png'),
-                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
-                    Himage('images/himages/2.png'),
-                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
-                    Himage('images/himages/3.png'),
-                    Padding(padding: EdgeInsets.only(bottom: 18.0)),
-                    Himage('images/himages/4.png'),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ));
-=======
         backgroundColor: Colors.tealAccent[700],
       ),
       body: ListView(
@@ -86,6 +61,5 @@ class _SlideState extends State<Slide> {
         ],
       ),
     );
->>>>>>> dummy
   }
 }
