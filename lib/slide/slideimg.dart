@@ -45,9 +45,7 @@ class _SlideState extends State<Slide> {
           ),
           backgroundColor: Colors.tealAccent[700],
         ),
-        backgroundColor: Colors.tealAccent[700],
-      ),
-      body: ListView(
+         body: ListView(
         children: [
           image_slider_carousel,
           Container(
@@ -60,6 +58,9 @@ class _SlideState extends State<Slide> {
           )
         ],
       ),
-    );
+      
+     );
+      
+    
   }
 }
