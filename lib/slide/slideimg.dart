@@ -11,6 +11,7 @@ class Slide extends StatefulWidget {
 class _SlideState extends State<Slide> {
   @override
   Widget build(BuildContext context) {
+    final tcolor = const Color(0xFFffffff);
     // ignore: non_constant_identifier_names
     Widget image_slider_carousel = Container(
       height: 220.0,
@@ -36,31 +37,54 @@ class _SlideState extends State<Slide> {
       ),
     );
     return Scaffold(
-        backgroundColor: Colors.white,
-        appBar: AppBar(
-          title: Center(
-            child: Text(
-              'Homepage',
-            ),
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: Padding(
+          padding: const EdgeInsets.fromLTRB(130, 0, 0, 0),
+          child: Text(
+            'Homepage',
           ),
-          backgroundColor: Colors.tealAccent[700],
         ),
-         body: ListView(
-        children: [
-          image_slider_carousel,
-          Container(
-            child: Center(
-              child: Text(
-                "Hello",
-                textAlign: TextAlign.center,
-              ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.search,
+              color: Colors.white,
             ),
+            onPressed: () {
+              // do something
+            },
           )
         ],
+        backgroundColor: Colors.tealAccent[700],
       ),
-      
-     );
-      
-    
+      body: SingleChildScrollView(
+        child: Card(
+          color: Colors.white,
+          child: Column(
+            children: [
+              image_slider_carousel,
+              Padding(padding: EdgeInsets.only(bottom: 18.0)),
+              Stack(children: <Widget>[
+                Himage('images/himages/oone.jpg', 1),
+              ]),
+              Padding(padding: EdgeInsets.only(bottom: 18.0)),
+              Stack(children: <Widget>[
+                Himage('images/himages/two.jpg', 2),
+              ]),
+              Padding(padding: EdgeInsets.only(bottom: 18.0)),
+              Stack(children: <Widget>[
+                Himage('images/himages/three.jpg', 3),
+              ]),
+              Padding(padding: EdgeInsets.only(bottom: 18.0)),
+              Stack(children: <Widget>[
+                Himage('images/himages/four.jpg', 4),
+              ]),
+              Padding(padding: EdgeInsets.only(top: 18.0)),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }

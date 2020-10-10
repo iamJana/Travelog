@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Mountpage extends StatelessWidget {
+class Beachpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Mountain Places'),
+        title: Text('Beach Places'),
         backgroundColor: Colors.green,
-        
       ),
     );
   }
