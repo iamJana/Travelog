@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Mountainpage.dart';
+import '../Hills/Mountainpage.dart';
 import 'beach.dart';
-import 'falls.dart';
+import '../Falls/falls.dart';
 import 'temple.dart';
 
 class Himage extends StatelessWidget {

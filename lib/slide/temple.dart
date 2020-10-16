@@ -5,9 +5,10 @@ class Templepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Temple Places'),
+        title: Text('Temple Places',style: TextStyle(fontFamily: 'Courgette')),
         backgroundColor: Colors.green,
       ),
     );
   }
 }
+

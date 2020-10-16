@@ -28,5 +28,11 @@ flutter:
   assets:
     - images/slider/
     - images/himages/
-    
+    - images/Mountimage/
+    - images/Fallsimage/
+  fonts:
+    - family: Courgette
+      fonts:
+        - asset: fonts/Courgette-Regular.ttf  
+          weight: 400
 
