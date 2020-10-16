@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../Hills/Mountainpage.dart';
-import 'beach.dart';
+import '../Beach/beach.dart';
 import '../Falls/falls.dart';
-import 'temple.dart';
+import '../Temples/temple.dart';
 
 class Himage extends StatelessWidget {
   final String _path;

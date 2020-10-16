@@ -30,6 +30,8 @@ flutter:
     - images/himages/
     - images/Mountimage/
     - images/Fallsimage/
+    - images/Templesimage/
+    - images/beachimages/
   fonts:
     - family: Courgette
       fonts:
