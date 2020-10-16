@@ -11,7 +11,7 @@ class Slide extends StatefulWidget {
 class _SlideState extends State<Slide> {
   @override
   Widget build(BuildContext context) {
-    final tcolor = const Color(0xFFffffff);
+    //final tcolor = const Color(0xFFffffff);
     // ignore: non_constant_identifier_names
     Widget image_slider_carousel = Container(
       height: 220.0,
@@ -43,6 +43,7 @@ class _SlideState extends State<Slide> {
           padding: const EdgeInsets.fromLTRB(130, 0, 0, 0),
           child: Text(
             'Homepage',
+            style: TextStyle(fontFamily: 'Courgette'),
           ),
         ),
         actions: <Widget>[
@@ -64,23 +65,17 @@ class _SlideState extends State<Slide> {
           child: Column(
             children: [
               image_slider_carousel,
-              Padding(padding: EdgeInsets.only(bottom: 18.0)),
+              SizedBox(height: 10.0),
               Stack(children: <Widget>[
                 Himage('images/himages/oone.jpg', 1),
               ]),
-              Padding(padding: EdgeInsets.only(bottom: 18.0)),
-              Stack(children: <Widget>[
-                Himage('images/himages/two.jpg', 2),
-              ]),
-              Padding(padding: EdgeInsets.only(bottom: 18.0)),
-              Stack(children: <Widget>[
-                Himage('images/himages/three.jpg', 3),
-              ]),
-              Padding(padding: EdgeInsets.only(bottom: 18.0)),
-              Stack(children: <Widget>[
-                Himage('images/himages/four.jpg', 4),
-              ]),
-              Padding(padding: EdgeInsets.only(top: 18.0)),
+              SizedBox(height: 10.0),
+              Himage('images/himages/two.jpg', 2),
+             SizedBox(height: 10.0),
+              Himage('images/himages/three.jpg', 3),
+              SizedBox(height: 10.0),
+              Himage('images/himages/four.jpg', 4),
+              SizedBox(height: 20.0),
             ],
           ),
         ),

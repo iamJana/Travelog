@@ -5,7 +5,7 @@ class Beachpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Beach Places'),
+        title: Text('Beach Places',style: TextStyle(fontFamily: 'Courgette')),
         backgroundColor: Colors.green,
       ),
     );
