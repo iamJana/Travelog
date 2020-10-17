@@ -28,7 +28,7 @@ Widget lstview() {
             ' Bordered by the Three seas', 3),
         Beachlist('images/beachimages/maha.jpg', 'Mahabalipuram Beach',
             'Historically Most important place', 4),
-        Beachlist('images/beachimages/marina.jpg', 'marina Beach',
+        Beachlist('images/beachimages/marina.jpg', 'Marina Beach',
             'Second Largest Beach in the world', 5),
         Beachlist('images/beachimages/pam.jpg', 'Pamban Beach',
             'Little Island between Indian Peninsula and Sri Lanka', 6),

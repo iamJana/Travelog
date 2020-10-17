@@ -20,7 +20,7 @@ Widget lstview() {
       children: [
         Templelist('images/Templesimage/annamalai.jpg', 'Annamalaiyeir Temple',
             'A Town that Offers Significant History', 0),
-        Templelist('images/Templesimage/brahadeesh.jpg', 'Brahadeshwara Temple',
+        Templelist('images/Templesimage/brahadessh.jpg', 'Brahadeshwara Temple',
             'The Biggest Attraction of Thanjavur', 1),
         Templelist('images/Templesimage/ekam.jpg', 'Ekambareshwarar Temple',
             'The Largest Temple', 2),

@@ -23,11 +23,11 @@ class Falllist extends StatelessWidget {
               trailing: Icon(Icons.arrow_forward_ios),
               title: Text(
                _name,
-                style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
                 _subname,
-                style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 13.0, fontWeight: FontWeight.bold),
               ),
             ),
           ),
