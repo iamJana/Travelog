@@ -13,6 +13,7 @@ class Templelist extends StatelessWidget {
       child: InkWell(
         onTap: () {},
         child: Container(
+          
           height: 80.0,
           child: Center(
             child: ListTile(
@@ -20,11 +21,12 @@ class Templelist extends StatelessWidget {
                 radius: 30.0,
                 backgroundImage: AssetImage(_path),
               ),
-              trailing: Icon(Icons.arrow_forward_ios,
-              color: Colors.green,
+              trailing: Icon(
+                Icons.arrow_forward_ios,
+                color: Colors.green,
               ),
               title: Text(
-               _name,
+                _name,
                 style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
