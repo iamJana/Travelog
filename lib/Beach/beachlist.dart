@@ -8,6 +8,7 @@ class Beachlist extends StatelessWidget {
   final String _subname;
   Beachlist(this._path, this._name, this._subname, this._count);
 
+  // ignore: missing_return
   Widget decide(_count) {
     if (_count == 0) {
       return Detail(
