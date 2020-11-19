@@ -27,12 +27,14 @@ flutter:
   
   uses-material-design: true
   assets:
+    
     - images/slider/
     - images/himages/
     - images/Mountimage/
     - images/Fallsimage/
     - images/Templesimage/
     - images/beachimages/
+    - images/
     
     
   fonts:

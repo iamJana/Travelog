@@ -40,23 +40,23 @@ class _SlideState extends State<Slide> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Padding(
-          padding: const EdgeInsets.fromLTRB(130, 0, 0, 0),
+          padding: const EdgeInsets.fromLTRB(65, 0, 0, 0),
           child: Text(
             'Homepage',
             style: TextStyle(fontFamily: 'Courgette'),
           ),
         ),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(
-              Icons.search,
-              color: Colors.white,
-            ),
-            onPressed: () {
-              // do something
-            },
-          )
-        ],
+        // actions: <Widget>[
+        //   IconButton(
+        //     icon: Icon(
+        //       Icons.search,
+        //       color: Colors.white,
+        //     ),
+        //     onPressed: () {
+        //       // do something
+        //     },
+        //   )
+        // ],
         backgroundColor: Colors.tealAccent[700],
       ),
       body: SingleChildScrollView(
