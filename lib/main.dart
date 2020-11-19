@@ -7,7 +7,6 @@ void main() {
       debugShowCheckedModeBanner: false,
       title: 'Travelog',
       home: Slide(),
-      
     ),
   );
 }

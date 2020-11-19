@@ -18,11 +18,11 @@ Widget lstview() {
   return SingleChildScrollView(
     child: Column(
       children: [
-        Templelist('images/Templesimage/annamalai.jpg', 'Annamalaiyeir Temple',
+        Templelist('images/Templesimage/annamalai.jpg', 'Annamalaiyar Temple',
             'A Town that Offers Significant History', 0),
-        Templelist('images/Templesimage/brahadessh.jpg', 'Brahadeshwara Temple',
+        Templelist('images/Templesimage/brahadessh.jpg', 'Brihadeeswara Temple',
             'The Biggest Attraction of Thanjavur', 1),
-        Templelist('images/Templesimage/ekam.jpg', 'Ekambareshwarar Temple',
+        Templelist('images/Templesimage/ekam.jpg', 'Ekambaranathar Temple',
             'The Largest Temple', 2),
         Templelist('images/Templesimage/golden.jpg', 'Sri Puram Golden Temple',
             'It is a Spiritual Oasis', 3),
