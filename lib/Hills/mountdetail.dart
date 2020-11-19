@@ -67,9 +67,9 @@ class Mountlist extends StatelessWidget {
           'images/himages/megha3.jpg',
           'Megamalai',
           "Tucked within the Western Ghats of Tamil Nadu, Meghamalai in Theni district is the kind of hidden paradise that you read about in books, complete with exhilarating trek routes, breathtaking scenes and an excellent opportunity to take a break from your everyday life in the lap of nature. The Highwavys Mountain, locally called the Meghamalai, is an undulating terrain of peaks belonging to the Varushanad Range of Western Ghats, in Theni district of Tamil Nadu. Located at an elevation of 1,500 metres above the sea level, Meghamalai is covered in the trademark green of Sahyadri, thus earning the name 'Pacha Kumachi' in Tamil, meaning /'Green Peaks/'.",
-          " ",
-          " ",
-          "https://goo.gl/maps/JCuytSnaE1UpUAzr7");
+          "https://goo.gl/maps/asZsTC1EevDJBXWe6",
+          "https://goo.gl/maps/f5oA36Ke4HhjQrHs7",
+          "https://goo.gl/maps/RUFemgEeWmx26GFKA");
     } else if (_count == 6) {
       return Detail(
           'images/himages/coon1.jpg',
