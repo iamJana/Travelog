@@ -42,4 +42,8 @@ flutter:
       fonts:
         - asset: fonts/Courgette-Regular.ttf  
           weight: 400
-
+    - family: Nunito Sans
+      fonts:
+        - asset: fonts/NunitoSans-Regular.ttf  
+          weight: 400
+        

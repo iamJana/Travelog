@@ -6,7 +6,7 @@ class Fallspage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Fall Places', style: TextStyle(fontFamily: 'Courgette')),
+        title: Text('Fall Places', style: TextStyle(fontFamily: 'Nunito Sans',)),
         backgroundColor: Colors.green,
       ),
       body: lstview(),

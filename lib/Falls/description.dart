@@ -48,6 +48,9 @@ class Detail extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           name,
+          style: TextStyle(
+            fontFamily: 'Nunito Sans',
+          ),
         ),
       ),
       body: SingleChildScrollView(

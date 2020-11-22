@@ -118,7 +118,9 @@ class Falllist extends StatelessWidget {
               trailing: Icon(Icons.arrow_forward_ios),
               title: Text(
                 _name,
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  fontFamily: 'Nunito Sans',
+                  fontSize: 18.0, fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
                 _subname,

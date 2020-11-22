@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -50,6 +52,7 @@ class Detail extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           name,
+          style: TextStyle(fontFamily: 'Nunito Sans',),
         ),
       ),
       body: SingleChildScrollView(
@@ -60,7 +63,7 @@ class Detail extends StatelessWidget {
               padding: EdgeInsets.all(20.0),
               child: Text(
                 desc,
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+                style: TextStyle(fontFamily: 'Nunito Sans',fontSize: 18.0, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.justify,
               ),
             ),

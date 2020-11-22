@@ -43,7 +43,7 @@ class _SlideState extends State<Slide> {
           padding: const EdgeInsets.fromLTRB(65, 0, 0, 0),
           child: Text(
             'Homepage',
-            style: TextStyle(fontFamily: 'Courgette'),
+            style: TextStyle(fontFamily: 'Nunito Sans'),
           ),
         ),
         // actions: <Widget>[
@@ -72,9 +72,9 @@ class _SlideState extends State<Slide> {
               SizedBox(height: 10.0),
               Himage('images/himages/two.png', 2),
              SizedBox(height: 10.0),
-              Himage('images/himages/three.png', 3),
+              Himage('images/himages/Temple.png', 3),
               SizedBox(height: 10.0),
-              Himage('images/himages/four.png', 4),
+              Himage('images/himages/Beach.png', 4),
               SizedBox(height: 20.0),
             ],
           ),

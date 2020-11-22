@@ -8,7 +8,7 @@ class Mountpage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Mountain pages',
-          style: TextStyle(fontFamily: 'Courgette'),
+          style: TextStyle(fontFamily: 'Nunito Sans'),
         ),
       ),
       //backgroundColor: Colors.black,

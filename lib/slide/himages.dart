@@ -37,7 +37,11 @@ class Himage extends StatelessWidget {
             child: Image(
               image: AssetImage(
                 _path,
+                
               ),
+              height: 220,
+              width: double.infinity,
+              fit: BoxFit.fill,
             )));
   }
 }
