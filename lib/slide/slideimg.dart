@@ -3,7 +3,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 import 'himages.dart';
 //import 'package:url_launcher/url_launcher.dart';
 
-class Slide extends StatefulWidget {
+class Slide extends StatefulWidget {  
   @override
   _SlideState createState() => _SlideState();
 }
