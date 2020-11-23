@@ -6,8 +6,11 @@ class Templepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Temple Places', style: TextStyle(fontFamily: 'Nunito Sans',)),
-        backgroundColor: Colors.green,
+        title: Text('Temple Places',
+            style: TextStyle(
+              fontFamily: 'Nunito Sans',
+            )),
+        backgroundColor: Colors.red[900],
       ),
       body: lstview(),
     );
@@ -34,16 +37,19 @@ Widget lstview() {
             'Holy Shrine of  Shiva in Mylapore', 6),
         Templelist('images/Templesimage/kumari.jpg', 'Kumari Amman Temple',
             'Lot of  Significance in Kanyakumari', 7),
-        Templelist('images/Templesimage/meenakshi.jpg', 'Meenakshi Amman Temple',
-            'Southern Bank of the Vagai River', 8),
+        Templelist('images/Templesimage/meenakshi.jpg',
+            'Meenakshi Amman Temple', 'Southern Bank of the Vagai River', 8),
         Templelist('images/Templesimage/palani.jpg', 'Palani Murugar Temple',
             'The prominent Visual in this Scenic, Hilly Landscape', 9),
         Templelist('images/Templesimage/ramanthan.jpg', 'Ramanadhaswamy Temple',
             'A  Mind-Boggling Architecture', 10),
         Templelist('images/Templesimage/shore.jpg', 'Shore Temple',
             'Oldest South Indian Temple in Dravidian Style', 11),
-        Templelist('images/Templesimage/srirangam.jpg', 'Sri Ranganathar Temple',
-            'A Beautifully Carved  Temple Complex in Srirangapatna', 12),     
+        Templelist(
+            'images/Templesimage/srirangam.jpg',
+            'Sri Ranganathar Temple',
+            'A Beautifully Carved  Temple Complex in Srirangapatna',
+            12),
       ],
     ),
   );

@@ -9,9 +9,11 @@ class Mountpage extends StatelessWidget {
         title: Text(
           'Mountain pages',
           style: TextStyle(fontFamily: 'Nunito Sans'),
+          
         ),
+        backgroundColor: Colors.red[900],
       ),
-      //backgroundColor: Colors.black,
+      
       body: lstview(),
     );
   }

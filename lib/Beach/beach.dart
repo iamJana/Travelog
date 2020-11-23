@@ -7,7 +7,7 @@ class Beachpage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Beach Places', style: TextStyle(fontFamily: 'Nunito Sans',)),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.red[900],
       ),
       body: lstview(),
     );

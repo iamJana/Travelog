@@ -57,7 +57,7 @@ class _SlideState extends State<Slide> {
         //     },
         //   )
         // ],
-        backgroundColor: Colors.tealAccent[700],
+        backgroundColor: Colors.grey[850],
       ),
       body: SingleChildScrollView(
         child: Card(
@@ -71,10 +71,10 @@ class _SlideState extends State<Slide> {
               ]),
               SizedBox(height: 10.0),
               Himage('images/himages/two.png', 2),
-             SizedBox(height: 10.0),
-              Himage('images/himages/Temple.png', 3),
               SizedBox(height: 10.0),
-              Himage('images/himages/Beach.png', 4),
+              Himage('images/himages/three.png', 3),
+              SizedBox(height: 10.0),
+              Himage('images/himages/four.png', 4),
               SizedBox(height: 20.0),
             ],
           ),
