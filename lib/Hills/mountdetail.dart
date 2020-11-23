@@ -26,7 +26,7 @@ class Mountlist extends StatelessWidget {
           'images/himages/ooty3.jpg',
           'Ooty',
           "Ooty, also known as Udagamandalam, is a hill station in Tamil Nadu which serves as a top-rated tourist destination. Once regarded as the summer headquarters of the East India Company, the Queen of the hills is a picturesque getaway.Dotted with tea gardens, serene waterfalls, winding country lanes, and charming colonial architecture, Ooty is the perfect respite everyone. Popular among couples and honeymooners, Ooty allures its visitors with the panoramic views of the Nilgiri mountains.",
-          "https://goo.gl/maps/HjcBASoz6XLdGreu5 ",
+          "https://goo.gl/maps/HjcBASoz6XLdGreu5",
           "https://goo.gl/maps/YjBb6XQD22ziFyub7",
           "https://goo.gl/maps/uMPnVasUNYb8Z3SRA");
     } else if (_count == 2) {
@@ -36,8 +36,8 @@ class Mountlist extends StatelessWidget {
           'images/himages/kodai3.jpg',
           'Kodaikanal',
           "Kodaikanal is one of the most famous honeymoon destinations in India. A Lakeside resort town of Tamil Nadu, Kodaikanal has a beautiful climate, mist-covered manicured cliffs and waterfall that come together to create the ideal setting for a perfect getaway. Kodaikanal means 'the gift of the forests'.Nestled amidst the rolling slopes of the Palani Hills, Kodaikanal stands at an altitude of 7200 feet above sea level, and once you visit this hill station, you will find that every bit of what you have imagined it to be is real. Kodaikanal is a place you can go to take a break from the rigours of daily city life, and this hill station lets you sit back and connect with nature as you head out on biking or trekking trails or take a stroll through the vast forests surrounding the town.",
-          "https://goo.gl/maps/cPMvURgJy1sSUcXs7 ",
-          "https://goo.gl/maps/xU6zoSirJXvW7FZw6 ",
+          "https://goo.gl/maps/cPMvURgJy1sSUcXs7",
+          "https://goo.gl/maps/xU6zoSirJXvW7FZw6",
           "https://goo.gl/maps/GoGPm3EFewu2HXzv9");
     } else if (_count == 3) {
       return Detail(
@@ -47,8 +47,8 @@ class Mountlist extends StatelessWidget {
           'KolliHills',
           "Kolli Hills or Kolli Malai are a mountain range located in the Namakkal district of Tamil Nadu. It is relatively untouched by commercial tourism and therefore has retained most of its natural magnificence. The mountains are famous for not only their natural beauty but also have religious significance because of the Arappaleshwar Temple which is dedicated to Lord Shiva. The peak is accessible via road as well and the road leading up to it is winding with several twists and turns.",
 
-          " https://goo.gl/maps/G825QBHAsnSEbdoy7",
-          "https://goo.gl/maps/mqiyacSykhKZ3E1a7 ",
+          "https://goo.gl/maps/G825QBHAsnSEbdoy7",
+          "https://goo.gl/maps/mqiyacSykhKZ3E1a7",
           "https://goo.gl/maps/Y7JNTLi3w8RBPvVK7");
     } else if (_count == 4) {
       return Detail(
@@ -57,8 +57,8 @@ class Mountlist extends StatelessWidget {
           'images/himages/yer3.jpg',
           'Yercaud',
           "Yercaud is a tranquil hill station in the Eastern Ghats steeped in abundant greenery. Commonly called /‘Ooty of the Poor/’, this region has a history dating back to the time of the British. Located at an altitude of 4970 feet, Yercaud is known for its vast expanses of coffee plantations. A paradise for nature lovers, this quaint town is an ideal place to experience nature at its enchanting best.",
-          "https://goo.gl/maps/aBjWHZkAVamtaDMi6 ",
-          "https://goo.gl/maps/HuwrLGNK7hGWWSLv5 ",
+          "https://goo.gl/maps/aBjWHZkAVamtaDMi6",
+          "https://goo.gl/maps/HuwrLGNK7hGWWSLv5",
           "https://goo.gl/maps/ti3FUTfQUQ9SZqk8A");
     } else if (_count == 5) {
       return Detail(
@@ -77,7 +77,7 @@ class Mountlist extends StatelessWidget {
           'images/himages/coon3.jpg',
           'Coonoor',
           "One of the three beautiful Nilgiri hill stations, Coonoor is the second largest hill station of the Western Ghats. It is situated at an altitude of 1930 meters and just 19 km from Ooty. With slopes of tea plantations, dotted with many attractions and blessed with chilly weather throughout the year, this place is a perfect summer retreat. Coonoor is a delightful location to have a panoramic view of the Nilgiri Hills and Catherine Falls. It is a dreamy destination for its rich greenery, the manicured hills, the Colonial culture and amazing sceneries. Coonoor also has some heritage homes and guesthouses admits the hills that/'s perfect for a vacation or a staycation.",
-          "https://goo.gl/maps/eCRfWNYnCP9HfSbw6 ",
+          "https://goo.gl/maps/eCRfWNYnCP9HfSbw6",
           "https://goo.gl/maps/59DHCeQwHJa9fb9s5",
           "https://goo.gl/maps/9hsr2D5Ro4zTMeyXA");
     }
