@@ -53,7 +53,7 @@ Widget lstview() {
             'The Chidambaram Nataraja temple or Thillai Nataraja temple',14),
         Templelist('images/Templesimage/nagaraja.jpg','Nagaraja Temple',
             '‘Nagaraja Temple’ is dedicated to the serpent king Vasuki',15), 
-        Templelist('images/Templesimage/bala.jpg',' Temple',
+        Templelist('images/Templesimage/bala.jpg','Bala Murugan Temple',
             'Dedicated to Lord Murugan also known as Kartikeya',16),
         Templelist('images/Templesimage/navaladiyan.jpg','Navaladiyan Temple',
             'Mohanur is a 500-1000 year-old temple in Mohanur',17),
