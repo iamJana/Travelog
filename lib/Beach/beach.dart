@@ -7,7 +7,7 @@ class Beachpage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Beach Places', style: TextStyle(fontFamily: 'Nunito Sans',)),
-        backgroundColor: Colors.red[900],
+        backgroundColor: Colors.orange[900],
       ),
       body: lstview(),
     );
@@ -35,7 +35,17 @@ Widget lstview() {
         Beachlist('images/beachimages/tuti.jpg', 'Tuticorin Beach',
             'Busy port Town Hidden away in Tamilnadu', 7),
         Beachlist('images/beachimages/vel.jpg', 'Velanganni Beach',
-            'Our Lady of Good Health', 8),    
+            'Our Lady of Good Health', 8),   
+        Beachlist('images/beachimages/sothavilai.jpg', 'chothavilai Beach',
+            'This beach is an offbeat attraction', 9), 
+        Beachlist('images/beachimages/breezy.jpg', 'Thiruvalluvar Nagar Beach',
+            'Remote and serene neighbourhood of Valmiki Nagar', 10),
+        Beachlist('images/beachimages/sanguthurai.jpg', 'Sanguthurai Beach',
+            'one of the calmest yet cleanest beaches', 11),
+        Beachlist('images/beachimages/akkarai.jpg', 'Akkarai Beach',
+            'Ennore in the north extending south into Uthandi', 12),
+        Beachlist('images/beachimages/nettukuppam.jpg', 'Netukuppam Beach',
+            'northernmost tip of Chennai and has a beach', 13),                    
       ],
     ),
   );

@@ -109,6 +109,66 @@ class Beachlist extends StatelessWidget {
         "https://goo.gl/maps/yAEZ6wMVC6cyNtJP8",
       );
     }
+    else if (_count == 9) {
+      return Detail(
+        'images/beachimages/soth1.jpg',
+        'images/beachimages/soth2.jpg',
+        'images/beachimages/soth3.jpg',
+        'chothavillai Beach',
+        "The Sotha Vilai Beach is one of the most famous beaches that can be found in the entire district of Kanyakumari in Tamil Nadu. This beach is an offbeat attraction, which means that many people do not know about it, but the beach does deserve more attention than what it gets. The glorious beach stretches for over 4 kilometres, which makes it one of the longest natural beaches in the entire state, and the views that this attraction offers cannot be put into words. The glistening white sand with high dunes and the clear, pure water extending indefinitely to meet the horizon miles and miles away is indeed a sight to behold.",
+        "https://goo.gl/maps/e1nj88it15Ju9Jam7",
+        "https://goo.gl/maps/SAsCvKabaV7wGPif9",
+        "https://goo.gl/maps/Ld93UF5ZZYdKDUKC8",
+      );
+    }
+    else if (_count == 10) {
+      return Detail(
+        'images/beachimages/bree1.jpg',
+        'images/beachimages/bree2.jpg',
+        'images/beachimages/bree3.jpg',
+        'Thiruvalluvar nagar Beach',
+        "Breezy Beach also known as thiruvalluvar nagar beach lays in the remote and serene neighbourhood of Valmiki Nagar in Chennai. Being smaller and less polluted, its a perfect getaway for anyone looking for a peaceful evening.This beach is not as popular and known as the Elliots beach, and is hence more quiet and peaceful. Evenings are very pleasant and breezy here, and in the recent years, lots of tourists have been attracted towards this beach for its beauty. Those looking for an amiable, refreshing and breezy place to chill out and have fun, the Breezy beach of Chennai is the place to be.",
+        "https://goo.gl/maps/JwMto59gyWbN9QCr5",
+        "https://goo.gl/maps/5CS7xvxEjAbdiRbdA",
+        "https://goo.gl/maps/ZdEf56DEYvuM2ruF8",
+      );
+    }
+    else if (_count == 11) {
+      return Detail(
+        'images/beachimages/sang1.jpg',
+        'images/beachimages/sang2.jpg',
+        'images/beachimages/sang3.jpg',
+        'Sanguthurai Beach',
+        "Sanguthurai Beach is one of the calmest yet cleanest beaches that you should go to, during your visit to Kanyakumari. Sanguthurai Beach is located in the southernmost part of India, and you can feel the fierce power of the Indian Ocean there.However, Sanguthurai Beach is a pretty tranquil place with white sand beaches that sets a perfect background to the coastlineYou can also see Vivekananda Rock Memorial from here in the coastline of Sanguthurai Beach. If vigilant enough,you can also spot a white pillar protruding from the sea at Sanguthurai Beach. In addition to all these attractions,its lukewarm water is perfect for swimming.",
+        "https://goo.gl/maps/PbMEqEkUSj1jq3A99",
+        "https://goo.gl/maps/cu7Xo9BhNmAkU7ybA",
+        "https://goo.gl/maps/9vWTb58mfBn3xxzq9",
+      );
+    }
+    else if (_count == 12) {
+      return Detail(
+        'images/beachimages/akka1.jpg',
+        'images/beachimages/akka2.jpg',
+        'images/beachimages/akka3.JPG',
+        'Akkarai Beach',
+        "The sandy coastline begins from Ennore in the north extending south into Uthandi, leaving one to choose from more than just Marina and Elliot's beach.With nicely constructed walkers' paths,convenient seats, adequate lighting, lush green areas and children's playgrounds proposed for select beaches initially, there is more to look forward to when you clock in some time for fitness.",
+        "https://goo.gl/maps/xjbG4TVFA95sdTHd7",
+        "https://goo.gl/maps/7gogZpAAikKdptKq8",
+        "https://goo.gl/maps/k8WMxAXdFnsBHdQY7",
+      );
+    }
+    else if (_count == 13) {
+      return Detail(
+        'images/beachimages/nett1.jpg',
+        'images/beachimages/nett2.jpg',
+        'images/beachimages/nett3.jpg',
+        'Nettukuppam Beach',
+        "Nettukuppam is the northernmost tip of Chennai and has a beach which is yet not tarnished by encroaching crowds. It is a solitary retreat for those who seek to enjoy the raging sea up close but in a peaceful environment. The saltwater creek of Ennore joins the sea here forming an estuary of sorts. The place is ideal to spend a peaceful time as it is still not on the radar of the maddening tourist crowd.Neither does the place have shouting hawkers, nor are there tourists crowding the beach. It does get some more footfall in the holiday seasons or festivals, but mostly it is just a few groups of people who are present here. If you are a lover of silence and tranquillity, you will find this the perfect place to hang out on a summer evening. There is a vantage point from where you can actually see the skyline of Chennai, and take into the vast historical and geographical differences the city experiences. This point is at the end of a long, concrete pier that extends into the sea. The local people call this the borken bridge and say that it was built to hold a dredger at the creek's mouth years ago. The few visitors you will find here come in attraction of this popular joint.",
+        "https://goo.gl/maps/23pY4J4JMi7xPTaZ7",
+        "https://goo.gl/maps/uQtsmjc7LA4v7tBh6",
+        "https://goo.gl/maps/EsyLEptXGkR6He5a9",
+      );
+    }
   }
 
   @override
