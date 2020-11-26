@@ -103,7 +103,9 @@ class Mountlist extends StatelessWidget {
                 radius: 30.0,
                 backgroundImage: AssetImage(_path),
               ),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.arrow_forward_ios,
+              color: Colors.green,
+              ),
               title: Text(
                 _name,
                 style: TextStyle(

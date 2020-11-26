@@ -40,7 +40,7 @@ class _SlideState extends State<Slide> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Padding(
-          padding: const EdgeInsets.fromLTRB(65, 0, 0, 0),
+          padding: const EdgeInsets.fromLTRB(75, 0, 0, 0),
           child: Text(
             'Homepage',
             style: TextStyle(fontFamily: 'Nunito Sans'),
