@@ -368,6 +368,7 @@ class Mountlist extends StatelessWidget {
           "Situated off the Vaniyambadi-Tirupattur road and located at an altitude of 1,110.6 meters above Mean Sea- Level, the Yelagiri village (also spelled as Elagiri ) is surrounded by orchards, rose-gardens, and green valleys.",
           "https://goo.gl/maps/pLqKXsopRi7BvA7KA",
           "https://goo.gl/maps/gqfEFVEeTH6ukwJQ6",
+          
           "https://goo.gl/maps/vwYygwvzaVEunsnv6");
     } else if (_count == 21) {
       return Detail(
