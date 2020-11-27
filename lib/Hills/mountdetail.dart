@@ -319,17 +319,8 @@ class Mountlist extends StatelessWidget {
           "https://goo.gl/maps/9gbQXe7Xdv3SaFQd6",
           "https://goo.gl/maps/pnhdvETiekwQCfMo8",
           "https://goo.gl/maps/q1PxzKHAtH9U2Ts57");
-    } else if (_count == 16) {
-      return Detail(
-          'images/himages/sath1.jpg',
-          'images/himages/sath2.jpg',
-          'images/himages/sath3.jpg',
-          'Sathuragiri Hills',
-          "Sathuragiri Hills or Chathuragiri, otherwise known as ' Sundara Mahalingam ' is situated 10 km from Watrap (Wathirairuppu) near Srivilliputhur and is among the most spiritual tourist places in Tamil Nadu. The name Sathuragiri came from Chathur Veda (Vedas) Giri (Hill), i.e. where all the four Vedas met and formed the hill. Another meaning is that the whole mountain is square (Chathuram) in shape so the name Chathuragiri. This is also called as Siddargal boomi. 18 Siddhas were said to live here.",
-          "https://goo.gl/maps/urEjL5xSMxWdJ9Yf8",
-          "https://goo.gl/maps/eiC2wLJ427wSt3gV8",
-          "https://goo.gl/maps/WQdiAY84oC44UCzZ9");
-    } else if (_count == 17) {
+    } 
+     else if (_count == 16) {
       return Detail(
           'images/himages/siru1.jpg',
           'images/himages/siru2.jpg',
@@ -339,7 +330,7 @@ class Mountlist extends StatelessWidget {
           "https://goo.gl/maps/xVCJkfMBzMbS8Brk8",
           "https://goo.gl/maps/veDDsxLLHiPZTvLR9",
           "https://goo.gl/maps/8kqTjCAvknJQrho38");
-    } else if (_count == 18) {
+    } else if (_count == 17) {
       return Detail(
           'images/himages/tops1.jpg',
           'images/himages/tops2.jpg',
@@ -349,7 +340,7 @@ class Mountlist extends StatelessWidget {
           "https://goo.gl/maps/kcH3sdhUzbw6Z1yo6",
           "https://goo.gl/maps/tmJEThoNKLepFQqe6",
           "https://goo.gl/maps/xMoKERJPiexS1VKd6");
-    } else if (_count == 19) {
+    } else if (_count == 18) {
       return Detail(
           'images/himages/valp1.jpg',
           'images/himages/valp2.jpg',
@@ -359,7 +350,7 @@ class Mountlist extends StatelessWidget {
           "https://goo.gl/maps/H6nC2YWWtaAEfNvX9",
           "https://goo.gl/maps/TX1Qo3nWzzU1pqyXA",
           "https://goo.gl/maps/662idjVY9btBbYx86");
-    } else if (_count == 20) {
+    } else if (_count == 19) {
       return Detail(
           'images/himages/yela1.jpg',
           'images/himages/yela2.jpg',
@@ -370,10 +361,10 @@ class Mountlist extends StatelessWidget {
           "https://goo.gl/maps/gqfEFVEeTH6ukwJQ6",
           
           "https://goo.gl/maps/vwYygwvzaVEunsnv6");
-    } else if (_count == 21) {
+    } else if (_count == 20) {
       return Detail(
           'images/himages/vell1.jpg',
-          'images/himages/vell2.jpg',
+          'images/himages/vell2.jpeg',
           'images/himages/vell3.jpg',
           'Velliangiri Hills',
           "Another important destination in the Nilgiris, situated close to the city of Coimbatore is the Velliangiri Hills. It has earned popularity as the 'Kailasha of the South' for the Shiva Temple present here. Legend goes that Lord Shiva performed the celestial dance at his wife's request at this place. Just 40 km from Coimbatore, Velliangiri Hills is a great option for a one-day and trekking trips.",

@@ -49,20 +49,16 @@ Widget lstview() {
             'foot of the hills is the Thirumoorthy Temple',12),
         Falllist('images/Fallsimage/kalhatty.jpg', 'Kalhatty Waterfalls',
             'The slopes of Kalhatti Mountain', 13),
-        Falllist('images/Fallsimage/laws.jpg', 'Law\'s Waterfalls',
-            'Named after Col Law', 14),
+        
         Falllist('images/Fallsimage/katary.jpg', 'Katary Waterfalls',
-            'It is the third-largest waterfall in the Nilgiris', 15),
-        Falllist('images/Fallsimage/kolakambai.jpg', 'Kolakambai Waterfalls',
-            'The very beautiful and mesmerizing Kolakambai Waterfall', 16),
-        Falllist('images/Fallsimage/manimuthar.jpg', 'Manimuthar Waterfalls',
-            'foothills of the scenic Podhigai Hills', 17),
+            'It is the third-largest waterfall in the Nilgiris', 14),
+        
+        
         Falllist('images/Fallsimage/kumbakkarai.jpeg', 'Kumbakkarai Waterfalls',
-            'base camp for trekkers venturing into the hills of Kodai', 18),
+            'base camp for trekkers venturing into the hills of Kodai', 15),
         Falllist('images/Fallsimage/suruli.jpg', 'Suruli Waterfalls',
-            'falls originate from the Megamalai hills', 19),
-        Falllist('images/Fallsimage/pambar.jpg', 'Pambar Waterfalls',
-            'slippery path behind Pambar house', 20),
+            'falls originate from the Megamalai hills', 16),
+        
       ],
     ),
   );
