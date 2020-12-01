@@ -153,6 +153,115 @@ class Templelist extends StatelessWidget {
         "https://goo.gl/maps/zYeFhJCyiKpz9W749",
       );
     }
+    else if (_count == 13) {
+      return Detail(
+        'images/Templesimage/jamb1.jpg',
+        'images/Templesimage/jamb2.jpg',
+        'images/Templesimage/jamb3.jpg',
+        'Jambukeswarar Temple',
+        "The Srirangam Island of Tamilnadu is the ‘Jambukeshwara Temple’ dedicated to Lord Shiva. Dating back to the Chola era, the temple again represents a Dravidian style of architecture with 7 tiered gopuram adorned with delicate carvings. There are 5 enclosures inside the temple with the innermost being the main sanctum housing the Shivlinga in the form of Appu Lingam (water Lingam). There is an underground stream flowing underneath the Shivlinga from which water continuously flows out.According to mythological legends, Goddess Parvati in the form of Akilandeswari performed a great penance under the ‘Jambu Tree’ that is believed to have grown from the head of a meditating saint.",
+        "https://goo.gl/maps/3Yc9hC9deY5dbgzHA",
+        "https://goo.gl/maps/Yp9eJqaoddo2frED9",
+        "https://goo.gl/maps/nRnMRuZUCQTmkKSG8",
+      );
+    }
+    else if (_count == 14) {
+      return Detail(
+        'images/Templesimage/nata1.jpg',
+        'images/Templesimage/nata2.jpg',
+        'images/Templesimage/nata3.png',
+        'Nataraja Temple',
+        "Nataraja Temple, also referred to as the Chidambaram Nataraja temple or Thillai Nataraja temple, is a Hindu temple dedicated to Nataraja – Shiva as the lord of dance – in Chidambaram, Tamil Nadu, India. The temple has mythical roots and a Shiva shrine existed at the site when the town was known as Thillai. Chidambaram, the name of the city and the temple literally means atmosphere of wisdom or clothed in thought, the temple architecture symbolizes the connection between the arts and spirituality, creative activity and the divine.The temple wall carvings display all the 108 karanas from the Natya Shastra by Bharata Muni, and these postures form a foundation of Bharatanatyam, a classical Indian dance.",
+        "https://goo.gl/maps/dUqtLLLhGvnSeFRX6",
+        "https://goo.gl/maps/UDcWjv5hbkN5fjeC9",
+        "https://goo.gl/maps/gnZQp6SwqjJsjZsS8",
+      );
+    }
+    else if (_count == 15) {
+      return Detail(
+        'images/Templesimage/naga1.jpg',
+        'images/Templesimage/naga2.jpg',
+        'images/Templesimage/naga3.jpg',
+        'Nagaraja Temple',
+        "Located in the Nagercoil town of Kanyakumari district in Tamil Nadu, the ‘Nagaraja Temple’ is dedicated to the serpent king Vasuki. The presiding deity of this temple is the five-headed Naga God and is visited by hordes of devotees, especially on Sundays when special Pooja is performed offering milk and turmeric to the deity. The temple sees an uncountable footfall of people suffering from Naga Dosha during the Tamil month of Avani (August and September) when some distinct rituals are performed for 12 days.According to folk tales and legends, once a village girl was cutting grass in the area when all of a sudden she noticed blood oozing out of her axe after accidentally hitting a stone. She hurriedly went to the village and brought few villagers here, out of which one villager recognized the stone as an idol of a five headed snake.",
+        "https://goo.gl/maps/2eWVkpPgk5z8dr7K9",
+        "https://goo.gl/maps/mWSM5TqNRP5uWvyP9",
+        "https://goo.gl/maps/Dd6gmpdPGZgsQ1ri8",
+      );
+    }
+    else if (_count == 16) {
+      return Detail(
+        'images/Templesimage/bala1.jpg',
+        'images/Templesimage/bala2.jpg',
+        'images/Templesimage/bala3.jpg',
+        'Bala Murugan Temple',
+        "Dating back to 500 years, the ‘Bala Murugan Temple’ is dedicated to Lord Murugan also known as Kartikeya, son of Lord Shiva and Goddess Parvati. It is believed that Lord Murugan here fulfils the wishes of all his true devotees and therefore, the temple is visited by hundreds of people every day. The temple has a special place amongst the devotees wishing to purchase a new house or property.The presiding deity of the temple is of Lord Murugan standing tall at a height of 4.5 feet. Outside the sanctum sanctorum, a sculpture of peacock made with green emerald is also held to be religiously significant.",
+        "https://goo.gl/maps/CeE9K5YHv9ifSn2G7",
+        "https://goo.gl/maps/aGXMU4LhcYnS4Gtm8",
+        "https://goo.gl/maps/sadxdojEJqS6sLyt9",
+      );
+    }
+    else if (_count == 17) {
+      return Detail(
+        'images/Templesimage/nava1.jpg',
+        'images/Templesimage/nava2.jpg',
+        'images/Templesimage/nava3.jpg',
+        'Navaladiyan Temple',
+        "Sri Navaladi Karuppannaswami Temple – Mohanur is a 500-1000 year-old temple in Mohanur, Namakkal District, Tamil Nadu, India. Its presiding deity is Karuppu Sami, also known as Navaladian and Judge Durai and known as Pattamarathan. Its reputation is Swayambu known for two trees, the Holy tree known as Naval tree and the Special tree, known as Neem Tree.After a while, the Navaladiyan Temple along with Mariyamman and Kaaliamman temple is mean to be consecrated after finishing the Construction of New RajaGopuram in Navaladiyan temple which is very high. Kumbabisekam is planned on 17-06-2018. The Festival will be for three days from 15 June to 17 June. On the Final Day of the Festival Major VIPs were invited for the Function.",
+        "https://goo.gl/maps/VdwLn7eGYvmsEMcH7",
+        "https://goo.gl/maps/1LCwfm6DmtJXQXfAA",
+        "https://goo.gl/maps/v4uJ21Bk9tnQN95bA",
+      );
+    }
+    else if (_count == 18) {
+      return Detail(
+        'images/Templesimage/ucch1.jpg',
+        'images/Templesimage/ucch2.jpg',
+        'images/Templesimage/ucch3.jpg',
+        'Ucchi Pillayar Temple',
+        "The Rock Fort temple is dedicated to Lord Ganesh, located a top of Rockfort in Tiruchirappalli. Ucchi Pillayar Temple is one of the most famous temple of Lord Ganesh in India and the rock provides a stunning view of Trichy city.",
+        "https://goo.gl/maps/ehzYUByi9muerAGb8",
+        "https://goo.gl/maps/7kXJq4FXxBS2GtQv6",
+        "https://goo.gl/maps/n7pfdw6LfY6Lcg9S6",
+      );
+    }
+    else if (_count == 19) {
+      return Detail(
+        'images/Templesimage/thir1.jpg',
+        'images/Templesimage/thir2.jpg',
+        'images/Templesimage/thir3.jpg',
+        'Thiruchendur Murugar Temple',
+        "Thiruchendur Murugan Temple is one of the most visited temple complex in India, dedicated to Lord Murugan. The temple is also one of the richest temple of Tamil Nadu and one of the largest temple complexes by area in India.",
+        "https://goo.gl/maps/v5kmRssS9CiXDZ6q7",
+        "https://goo.gl/maps/e63rTkgb3zDGEwZ46",
+        "https://goo.gl/maps/wxzEyXKANUDqMDKU9",
+      );
+    }
+    else if (_count == 20) {
+      return Detail(
+        'images/Templesimage/bann1.jpg',
+        'images/Templesimage/bann2.jpg',
+        'images/Templesimage/bann3.jpg',
+        'Bannari Amman Temple',
+        "Bannari Amman Temple is one of the most famous Amman temples in Tamil Nadu, Located near Sathyamangalam in Erode. Erode has few more most prominent temples in the city known as Periya Mariamman Temple and Natadreeswarar Temple.",
+        "https://goo.gl/maps/P8FYDFy6S2wRASEy8",
+        "https://goo.gl/maps/XZXxxehJJhC3Xik5A",
+        "https://goo.gl/maps/rhkPjgYFTRF9zjGs7",
+      );
+    }
+    else if (_count == 21) {
+      return Detail(
+        'images/Templesimage/anja1.jpg',
+        'images/Templesimage/anja2.jpg',
+        'images/Templesimage/anja3.jpg',
+        'Namakkal Anjaneyar Temple',
+        "Namakkal Anjaneyar Temple is dedicated to the Hindu god Hanuman and home to one of the tallest images of Hanuman in India. The statue of Lord Anjaneyar is 18 ft (5.5 m) tall and carved out of a single stone.",
+        "https://goo.gl/maps/rAEpC8tac9VaMqjQA",
+        "https://goo.gl/maps/x9X5sV4rUV9rAoXQ9",
+        "https://goo.gl/maps/z7nbWqUEUHVcu6bM8",
+      );
+    }
+    
   }
 
   @override
