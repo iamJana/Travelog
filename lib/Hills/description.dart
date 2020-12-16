@@ -20,6 +20,7 @@ class Detail extends StatelessWidget {
 
   Detail(this._path1, this._path2, this._path3, this.name, this.desc, this.urrl,
       this.urhot, this.urhos);
+      
 
   // ignore: non_constant_identifier_names
 
