@@ -222,7 +222,9 @@ class Falllist extends StatelessWidget {
                 radius: 30.0,
                 backgroundImage: AssetImage(_path),
               ),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.arrow_forward_ios,
+              color: Colors.green,
+              ),
               title: Text(
                 _name,
                 style: TextStyle(
@@ -232,7 +234,7 @@ class Falllist extends StatelessWidget {
               ),
               subtitle: Text(
                 _subname,
-                style: TextStyle(fontSize: 13.0, fontWeight: FontWeight.bold),
+                style: TextStyle( fontFamily: 'Nunito Sans',fontSize: 13.0, fontWeight: FontWeight.bold),
               ),
             ),
           ),

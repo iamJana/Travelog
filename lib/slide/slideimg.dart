@@ -3,7 +3,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 import 'himages.dart';
 //import 'package:url_launcher/url_launcher.dart';
 
-class Slide extends StatefulWidget {  
+class Slide extends StatefulWidget {
   @override
   _SlideState createState() => _SlideState();
 }
@@ -39,25 +39,13 @@ class _SlideState extends State<Slide> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Padding(
-          padding: const EdgeInsets.fromLTRB(65, 0, 0, 0),
+        title: Center(
           child: Text(
             'Homepage',
             style: TextStyle(fontFamily: 'Nunito Sans'),
           ),
         ),
-        // actions: <Widget>[
-        //   IconButton(
-        //     icon: Icon(
-        //       Icons.search,
-        //       color: Colors.white,
-        //     ),
-        //     onPressed: () {
-        //       // do something
-        //     },
-        //   )
-        // ],
-        backgroundColor: Colors.grey[850],
+        backgroundColor: Color(0xFF33CC33),
       ),
       body: SingleChildScrollView(
         child: Card(

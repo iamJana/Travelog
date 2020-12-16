@@ -294,7 +294,7 @@ class Templelist extends StatelessWidget {
               ),
               subtitle: Text(
                 _subname,
-                style: TextStyle(fontSize: 13.0, fontWeight: FontWeight.bold),
+                style: TextStyle( fontFamily: 'Nunito Sans',fontSize: 13.0, fontWeight: FontWeight.bold),
               ),
             ),
           ),

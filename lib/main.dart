@@ -12,6 +12,9 @@ void main() {
       debugShowCheckedModeBanner: false,
       title: 'Travelog',
       home: SplashScreen(),
+      routes: {
+        "/first": (_) => Slide(),
+      },
     ),
   );
 }
@@ -26,15 +29,8 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Future.delayed(
-      
-        Duration(seconds: 5),
-        () => Navigator.push(
-            context, MaterialPageRoute(builder: 
-            
-            (context) => Slide(),
-            
-            )));
+    Future.delayed(Duration(seconds: 3),
+        () => Navigator.pushReplacementNamed(context, "/first"));
   }
 
   @override
