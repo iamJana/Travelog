@@ -45,7 +45,7 @@ class _SlideState extends State<Slide> {
             style: TextStyle(fontFamily: 'Nunito Sans'),
           ),
         ),
-        backgroundColor: Color(0xFF33CC33),
+        backgroundColor: Colors.blueGrey[900],
       ),
       body: SingleChildScrollView(
         child: Card(
