@@ -46,17 +46,6 @@ class _SlideState extends State<Slide> {
             style: TextStyle(fontFamily: 'Nunito Sans'),
           ),
         ),
-        // actions: <Widget>[
-        //   IconButton(
-        //     icon: Icon(
-        //       Icons.search,
-        //       color: Colors.white,
-        //     ),
-        //     onPressed: () {
-        //       // do something
-        //     },
-        //   )
-        // ],
         backgroundColor: Colors.grey[850],
       ),
       body: SingleChildScrollView(
