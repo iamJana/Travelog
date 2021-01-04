@@ -7,7 +7,7 @@ import '../Temples/temple.dart';
 class Himage extends StatelessWidget {
   final String _path;
   final int _count;
-  Himage(this._path, this._count);
+  Himage(this._path, this._count); // constructor
   // ignore: missing_return
   Widget decide(_count) {
     if (_count == 1) {

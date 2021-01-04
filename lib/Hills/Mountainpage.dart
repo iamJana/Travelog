@@ -7,17 +7,18 @@ class Mountpage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Mountain pages',
+          'Hill Stations',
           style: TextStyle(fontFamily: 'Nunito Sans'),
           
         ),
-        backgroundColor: Colors.green[900],
+        backgroundColor: Colors.green,
       ),
       
       body: lstview(),
     );
   }
 }
+
 
 Widget lstview() {
   return SingleChildScrollView(
@@ -70,3 +71,4 @@ Widget lstview() {
     ),
   );
 }
+

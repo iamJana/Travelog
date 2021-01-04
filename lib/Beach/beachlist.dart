@@ -108,8 +108,7 @@ class Beachlist extends StatelessWidget {
         "https://goo.gl/maps/4dCsrvoQQcjrNKX19",
         "https://goo.gl/maps/yAEZ6wMVC6cyNtJP8",
       );
-    }
-    else if (_count == 9) {
+    } else if (_count == 9) {
       return Detail(
         'images/beachimages/soth1.jpg',
         'images/beachimages/soth2.jpg',
@@ -120,8 +119,7 @@ class Beachlist extends StatelessWidget {
         "https://goo.gl/maps/SAsCvKabaV7wGPif9",
         "https://goo.gl/maps/Ld93UF5ZZYdKDUKC8",
       );
-    }
-    else if (_count == 10) {
+    } else if (_count == 10) {
       return Detail(
         'images/beachimages/bree1.jpg',
         'images/beachimages/bree2.jpg',
@@ -132,8 +130,7 @@ class Beachlist extends StatelessWidget {
         "https://goo.gl/maps/5CS7xvxEjAbdiRbdA",
         "https://goo.gl/maps/ZdEf56DEYvuM2ruF8",
       );
-    }
-    else if (_count == 11) {
+    } else if (_count == 11) {
       return Detail(
         'images/beachimages/sang1.jpg',
         'images/beachimages/sang2.jpg',
@@ -144,8 +141,7 @@ class Beachlist extends StatelessWidget {
         "https://goo.gl/maps/cu7Xo9BhNmAkU7ybA",
         "https://goo.gl/maps/9vWTb58mfBn3xxzq9",
       );
-    }
-    else if (_count == 12) {
+    } else if (_count == 12) {
       return Detail(
         'images/beachimages/akka1.jpg',
         'images/beachimages/akka2.jpg',
@@ -156,8 +152,7 @@ class Beachlist extends StatelessWidget {
         "https://goo.gl/maps/7gogZpAAikKdptKq8",
         "https://goo.gl/maps/k8WMxAXdFnsBHdQY7",
       );
-    }
-    else if (_count == 13) {
+    } else if (_count == 13) {
       return Detail(
         'images/beachimages/nett1.jpg',
         'images/beachimages/nett2.jpg',
@@ -191,14 +186,21 @@ class Beachlist extends StatelessWidget {
                 radius: 30.0,
                 backgroundImage: AssetImage(_path),
               ),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing:
+                  Icon(Icons.arrow_forward_ios, color: Colors.orange[900]),
               title: Text(
                 _name,
-                style: TextStyle(fontFamily: 'Nunito Sans',fontSize: 18.0, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    fontFamily: 'Nunito Sans',
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
                 _subname,
-                style: TextStyle( fontFamily: 'Nunito Sans',fontSize: 13.0, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    fontFamily: 'Nunito Sans',
+                    fontSize: 13.0,
+                    fontWeight: FontWeight.bold),
               ),
             ),
           ),

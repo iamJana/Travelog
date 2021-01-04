@@ -286,7 +286,7 @@ class Templelist extends StatelessWidget {
               ),
               trailing: Icon(
                 Icons.arrow_forward_ios,
-                color: Colors.green,
+                color: Colors.red[900],
               ),
               title: Text(
                 _name,

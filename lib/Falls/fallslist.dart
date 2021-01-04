@@ -223,7 +223,7 @@ class Falllist extends StatelessWidget {
                 backgroundImage: AssetImage(_path),
               ),
               trailing: Icon(Icons.arrow_forward_ios,
-              color: Colors.green,
+              color: Colors.indigoAccent[700],
               ),
               title: Text(
                 _name,
