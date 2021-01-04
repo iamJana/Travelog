@@ -48,6 +48,7 @@ class Detail extends StatelessWidget {
     );
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green,
         title: Text(
           name,
           style: TextStyle(
@@ -62,7 +63,7 @@ class Detail extends StatelessWidget {
             Container(
               padding: EdgeInsets.all(20.0),
               child: Text(
-                desc,
+                desc, //description
                 style: TextStyle(fontFamily: 'Nunito Sans',fontSize: 18.0, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.justify,
               ),

@@ -163,18 +163,8 @@ class Falllist extends StatelessWidget {
         'https://goo.gl/maps/3AueBhsDCKDqbhR98',
         'https://goo.gl/maps/TfZP4a5UstDB4ne26',
       );
-    } else if (_count == 14) {
-      return Detail(
-        'images/Fallsimage/laws1.jpg',
-        'images/Fallsimage/laws2.jpg',
-        'images/Fallsimage/laws3.jpg',
-        'Law\'s Falls',
-        'Named after Col. Law, who constructed the new Coonoor ghat, this waterfall is formed by Coonoor river near its junction with the Mettupalayam ghat road. This small & pretty wafterfall attracts huge crowd, especiall during post monsoons. Since this place is close to main road, it does not need much walk/trek.One can enjoy the force of the water at bottom of the falls. The place is rocky and slippery.Height of the falls is about 30 feet through multiple cascades.',
-        'https://goo.gl/maps/zckxmdjoYvRQGKqx5',
-        'https://goo.gl/maps/NbYwvDvJ8YfCpNE99',
-        'https://goo.gl/maps/P9vjbz6CYLBi6YXZ7',
-      );
-    } else if (_count == 15) {
+    } 
+    else if (_count == 14) {
       return Detail(
         'images/Fallsimage/kata1.jpg',
         'images/Fallsimage/kata2.jpg',
@@ -185,29 +175,9 @@ class Falllist extends StatelessWidget {
         'https://goo.gl/maps/2xc1qLUTo7jkmXm17',
         'https://goo.gl/maps/UHXE2MpgxjG9nhou7',
       );
-    } else if (_count == 16) {
-      return Detail(
-        'images/Fallsimage/kola1.jpg',
-        'images/Fallsimage/kola2.jpg',
-        'images/Fallsimage/kola3.jpg',
-        'Kolakambai Falls',
-        'The very beautiful and mesmerizing Kolakambai Waterfall is located in the Nilgiris near the cities of both Ooty and Coonoor. Standing tall at a height of 400 feet, this is the highest falls in the Nilgiris mountain range. It descends from the northern side of Kolakambai Hill, which is an important peak of the Nilgiri Hills range.A visit to these falls during the monsoon season can be quite breathtaking. The way to this falls is popular for hiking, trekking, and biking through the wild area full of natural flora and fauna that is typical of this mountainous range.',
-        'https://goo.gl/maps/GTnaWg5Hr9RRtpbP7',
-        'https://goo.gl/maps/JP5aZdWPYU92A9CJ7',
-        'https://goo.gl/maps/mYnzHLL7TkeYf6pZ8',
-      );
-    } else if (_count == 17) {
-      return Detail(
-        'images/Fallsimage/mani1.jpg',
-        'images/Fallsimage/mani2.jpg',
-        'images/Fallsimage/mani3.jpg',
-        'Manimuthar Falls',
-        'Situated at the foothills of the scenic Podhigai Hills, Manimuthar Dam was built across the Manimuthar River just three km above its confluence with Thamirabarani River in 1957. The maximum storage capacity of the dam is 118 feet. The river Manimuthar is the major tributary of Thamirabarani. The Dam is an ideal picnic spot blessed with beautiful garden and peaceful atmosphere. Boating in this picturesque dam is one of the most memorable things to do in Tirunelveli.About 6 km from Manimuthar Dam is Manimuthar Falls which is created by the waters of Manimuthar River. This natural waterfall cascades down from a height of 25 feet into a pond. The pond is 90 feet in deep and is very dangerous.',
-        'https://goo.gl/maps/kgxLQWfUQmMxRiJP6',
-        'https://goo.gl/maps/dmfp92eQAsUrYp477',
-        'https://goo.gl/maps/cKXpgmAs4aXihH9m9',
-      );
-    } else if (_count == 18) {
+    } 
+     
+     else if (_count == 15) {
       return Detail(
         'images/Fallsimage/kumb1.jpg',
         'images/Fallsimage/kumb2.jpg',
@@ -218,7 +188,7 @@ class Falllist extends StatelessWidget {
         'https://goo.gl/maps/kcQmsmNhARuh8bgV8',
         'https://goo.gl/maps/Zz94zz74KK6up64d6',
       );
-    } else if (_count == 19) {
+    } else if (_count == 16) {
       return Detail(
         'images/Fallsimage/suru1.jpg',
         'images/Fallsimage/suru2.jpg',
@@ -229,18 +199,7 @@ class Falllist extends StatelessWidget {
         'https://goo.gl/maps/bZUYyGaPkREB6nHq5',
         'https://goo.gl/maps/4W3KhpdRMswcAPB5A',
       );
-    } else if (_count == 20) {
-      return Detail(
-        'images/Fallsimage/pamb1.jpg',
-        'images/Fallsimage/pamb2.JPG',
-        'images/Fallsimage/pamb3.jpg',
-        'Pambar Falls',
-        'It can be reached by a steep, slippery path behind Pambar house. Racing down Pambar Ravine is the zig-zagging Levinge stream that cascades over a series of rock formations. The Pambar Ravine showers down the Waterfall and a series of steep and precariously slippery rocks during its meandering course.There is a pond like formation at the foot suitable for bathing. Three or four adjacent small cascading falls can be seen as you go downstream. The wild vicinity of the falls flourishes in rare flora and fauna. Endemic birds and butterflies create a center of attention to this soothing spot.',
-        'https://goo.gl/maps/p96ocaFitvJU5rkW8',
-        'https://goo.gl/maps/xCpsu9doXVUmfnTL8',
-        'https://goo.gl/maps/exZV26jEnQeb6xxz6',
-      );
-    }
+    } 
   }
 
   @override
@@ -264,7 +223,7 @@ class Falllist extends StatelessWidget {
                 backgroundImage: AssetImage(_path),
               ),
               trailing: Icon(Icons.arrow_forward_ios,
-              color: Colors.green,
+              color: Colors.indigoAccent[700],
               ),
               title: Text(
                 _name,

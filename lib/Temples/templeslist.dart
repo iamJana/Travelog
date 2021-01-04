@@ -110,7 +110,7 @@ class Templelist extends StatelessWidget {
       );
     } else if (_count == 9) {
       return Detail(
-        'images/Templesimage/pala1.jpg',
+        'images/Templesimage/pala1.png',
         'images/Templesimage/pala2.jpg',
         'images/Templesimage/pala3.jpg',
         'Palani Murugar Temple',
@@ -286,7 +286,7 @@ class Templelist extends StatelessWidget {
               ),
               trailing: Icon(
                 Icons.arrow_forward_ios,
-                color: Colors.green,
+                color: Colors.red[900],
               ),
               title: Text(
                 _name,

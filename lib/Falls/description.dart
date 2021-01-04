@@ -46,6 +46,7 @@ class Detail extends StatelessWidget {
     );
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.indigoAccent[700],
         title: Text(
           name,
           style: TextStyle(
