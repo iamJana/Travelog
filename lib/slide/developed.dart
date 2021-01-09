@@ -14,7 +14,7 @@ class Develop extends StatelessWidget {
         body: Column(
           children: [
             Text(
-              '1518106034:\tIshwarya M \n\n1518106031:\tHaritha S\n\n1518106035:\tJana M ',
+              '1518106034:\tIshwarya S \n\n1518106031:\tHaritha S\n\n1518106035:\tJana M ',
               style: TextStyle(
                   fontFamily: 'Nunito Sans',
                   fontSize: 28.0,
