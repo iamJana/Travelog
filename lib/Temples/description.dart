@@ -50,6 +50,7 @@ class Detail extends StatelessWidget {
     );
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.red[900],
         title: Text(
           name,
           style: TextStyle(fontFamily: 'Nunito Sans',),
